@@ -34,7 +34,7 @@
 
 ## About The Project
 
-<img src="https://github.com/Bensmithbortey/Pyrogarm-Capstone-Project/blob/develop/pyrogarmsite.png" alt="Image" width="500" height="400" class="center">
+<img src="https://github.com/Bensmithbortey/Pyrogarm-Capstone-Project/blob/develop/pyrogarmsite.png" alt="Image" width="900" height="400" class="center">
 
 This project was buit as part of my Brainstation Full Stack Web Development Bootcamp Capstone Project.
 
