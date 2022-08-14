@@ -6,7 +6,7 @@ import IconGroup from "../../components/header/IconGroup";
 import MobileMenu from "../../components/header/MobileMenu";
 import HeaderTop from "../../components/header/HeaderTop";
 
-const HeaderOne = ({
+const Header = ({
   layout,
   top,
   borderStyle,
@@ -79,7 +79,7 @@ const HeaderOne = ({
   );
 };
 
-HeaderOne.propTypes = {
+Header.propTypes = {
   borderStyle: PropTypes.string,
   headerPaddingClass: PropTypes.string,
   headerPositionClass: PropTypes.string,
@@ -87,4 +87,4 @@ HeaderOne.propTypes = {
   top: PropTypes.string,
 };
 
-export default HeaderOne;
+export default Header;

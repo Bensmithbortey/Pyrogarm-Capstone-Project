@@ -1,6 +1,6 @@
 import PropTypes from "prop-types";
 import React, { Fragment } from "react";
-import HeaderOne from "../wrappers/header/Header";
+import Header from "../wrappers/header/Header";
 import Footer from "../wrappers/footer/Footer";
 
 const Layout = ({
@@ -12,7 +12,7 @@ const Layout = ({
 }) => {
   return (
     <Fragment>
-      <HeaderOne
+      <Header
         layout={headerContainerClass}
         top={headerTop}
         headerPaddingClass={headerPaddingClass}
