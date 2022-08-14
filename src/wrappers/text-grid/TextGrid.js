@@ -3,7 +3,7 @@ import React from "react";
 import textGridData from "../../data/text-grid/text-grid-one.json";
 import TextGridSingle from "../../components/text-grid/TextGridSingle.js";
 
-const TextGridOne = ({ spaceBottomClass }) => {
+const TextGrid = ({ spaceBottomClass }) => {
   return (
     <div
       className={`about-mission-area ${
@@ -28,8 +28,8 @@ const TextGridOne = ({ spaceBottomClass }) => {
   );
 };
 
-TextGridOne.propTypes = {
+TextGrid.propTypes = {
   spaceBottomClass: PropTypes.string,
 };
 
-export default TextGridOne;
+export default TextGrid;

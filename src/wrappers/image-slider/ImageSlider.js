@@ -3,7 +3,7 @@ import Swiper from "react-id-swiper";
 import ImageSlider from "../../components/image-slider/ImageSlider";
 import imageData from "../../data/image-slider/image-slider-one.json";
 
-const ImageSliderOne = () => {
+const ImageSlider = () => {
   const settings = {
     loop: false,
     grabCursor: true,
@@ -43,4 +43,4 @@ const ImageSliderOne = () => {
   );
 };
 
-export default ImageSliderOne;
+export default ImageSlider;

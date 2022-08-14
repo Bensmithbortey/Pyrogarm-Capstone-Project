@@ -4,7 +4,7 @@ import Swiper from "react-id-swiper";
 import categoryData from "../../data/category/category.json";
 import CategoryOneSingle from "../../components/category/CategoryOneSingle.js";
 
-const CategoryOneSlider = ({ spaceBottomClass }) => {
+const CategorySlider = ({ spaceBottomClass }) => {
   // swiper slider settings
   const settings = {
     loop: false,
@@ -47,8 +47,8 @@ const CategoryOneSlider = ({ spaceBottomClass }) => {
   );
 };
 
-CategoryOneSlider.propTypes = {
+CategorySlider.propTypes = {
   spaceBottomClass: PropTypes.string,
 };
 
-export default CategoryOneSlider;
+export default CategorySlider;

@@ -5,10 +5,10 @@ import { BreadcrumbsItem } from "react-breadcrumbs-dynamic";
 import Layout from "../../layouts/Layout";
 import Breadcrumb from "../../wrappers/breadcrumb/Breadcrumb";
 import SectionTitleWithText from "../../components/section-title/SectionTitleWithText";
-import BannerOne from "../../wrappers/banner/BannerOne";
-import TextGridOne from "../../wrappers/text-grid/TextGridOne";
+import Banner from "../../wrappers/banner/Banner";
+import TextGrid from "../../wrappers/text-grid/TextGrid";
 import FunFactOne from "../../wrappers/fun-fact/FunFactOne";
-import TeamMemberOne from "../../wrappers/team-member/TeamMemberOne";
+import TeamMember from "../../wrappers/team-member/TeamMember";
 
 const About = ({ location }) => {
   const { pathname } = location;
@@ -34,10 +34,10 @@ const About = ({ location }) => {
         <SectionTitleWithText spaceTopClass="pt-100" spaceBottomClass="pb-95" />
 
         {/* banner */}
-        <BannerOne spaceBottomClass="pb-70" />
+        <Banner spaceBottomClass="pb-70" />
 
         {/* text grid */}
-        <TextGridOne spaceBottomClass="pb-70" />
+        <TextGrid spaceBottomClass="pb-70" />
 
         {/* fun fact */}
         <FunFactOne
@@ -47,7 +47,7 @@ const About = ({ location }) => {
         />
 
         {/* team member */}
-        <TeamMemberOne spaceTopClass="pt-95" spaceBottomClass="pb-70" />
+        <TeamMember spaceTopClass="pt-95" spaceBottomClass="pb-70" />
       </Layout>
     </Fragment>
   );

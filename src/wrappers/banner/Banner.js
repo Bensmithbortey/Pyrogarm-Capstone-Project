@@ -3,7 +3,7 @@ import React from "react";
 import bannerData from "../../data/banner/banner.json";
 import BannerSingle from "../../components/banner/BannerSingle.js";
 
-const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
+const Banner = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div
       className={`banner-area ${spaceTopClass ? spaceTopClass : ""} ${
@@ -28,9 +28,9 @@ const BannerOne = ({ spaceTopClass, spaceBottomClass }) => {
   );
 };
 
-BannerOne.propTypes = {
+Banner.propTypes = {
   spaceBottomClass: PropTypes.string,
   spaceTopClass: PropTypes.string,
 };
 
-export default BannerOne;
+export default Banner;

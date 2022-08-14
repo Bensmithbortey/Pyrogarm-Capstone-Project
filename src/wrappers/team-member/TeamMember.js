@@ -4,7 +4,7 @@ import SectionTitleTwo from "../../components/section-title/SectionTitleTwo";
 import teamMemberData from "../../data/team-members/team-member.json";
 import TeamMemberSingle from "../../components/team-member/TeamMemberSingle";
 
-const TeamMemberOne = ({ spaceTopClass, spaceBottomClass }) => {
+const TeamMember = ({ spaceTopClass, spaceBottomClass }) => {
   return (
     <div
       className={`team-area ${spaceTopClass ? spaceTopClass : ""} ${
@@ -37,9 +37,9 @@ const TeamMemberOne = ({ spaceTopClass, spaceBottomClass }) => {
   );
 };
 
-TeamMemberOne.propTypes = {
+TeamMember.propTypes = {
   spaceBottomClass: PropTypes.string,
   spaceTopClass: PropTypes.string,
 };
 
-export default TeamMemberOne;
+export default TeamMember;
