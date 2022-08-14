@@ -5,7 +5,8 @@
     <img src="https://github.com/Bensmithbortey/MyTreeTutorAppiOS/blob/main/Shared/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5%402x.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Pyrogarm - An e-commerce platform that provides authentic luxury and streetwear items for its customers.</h3>
+  <h3 align="center">Pyrogarm</h3>
+   <p>Pyrogarm - An e-commerce platform for authentic luxury and streetwear.</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
