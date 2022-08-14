@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "image": "/assets/img/blog/TAF1.jpg",
+    "category": ["lifestyle", "men"],
+    "title": "A guide to latest trends",
+    "url": "/blog-details-standard",
+    "author": "Major BenBo",
+    "authorUrl": "/blog"
+  },
+  {
+    "id": 2,
+    "image": "/assets/img/blog/j4-2.jpg",
+    "category": ["lifestyle"],
+    "title": "The top five Jordan sneakers",
+    "url": "/blog-details-standard",
+    "author": "Major BenBo",
+    "authorUrl": "/blog"
+  },
+  {
+    "id": 3,
+    "image": "/assets/img/blog/HowToClean.jpg",
+    "category": ["lifestyle"],
+    "title": "How to keep your sneakers clean",
+    "url": "/blog-details-standard",
+    "author": "Major BenBo",
+    "authorUrl": "/blog"
+  }
+]

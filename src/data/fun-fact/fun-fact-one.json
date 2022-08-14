@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "iconClass": "pe-7s-portfolio",
+    "countNum": 360,
+    "title": "items sourced"
+  },
+  {
+    "id": "2",
+    "iconClass": "pe-7s-cup",
+    "countNum": 10,
+    "title": "Awards Won"
+  },
+  {
+    "id": "3",
+    "iconClass": "pe-7s-light",
+    "countNum": 100,
+    "title": "Delivery Speed"
+  },
+  {
+    "id": "4",
+    "iconClass": "pe-7s-smile",
+    "countNum": 420,
+    "title": "happy clients"
+  }
+]
