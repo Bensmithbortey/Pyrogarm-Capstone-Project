@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 import Swiper from "react-id-swiper";
-import BrandLogoOneSingle from "../../components/brand-logo/BrandLogoOneSingle";
+import BrandLogoSingle from "../../components/brand-logo/BrandLogoSingle";
 import brandLogoData from "../../data/brand-logos/brand-logo.json";
 
 const BrandLogoSlider = ({ spaceBottomClass, spaceTopClass }) => {
@@ -40,7 +40,7 @@ const BrandLogoSlider = ({ spaceBottomClass, spaceTopClass }) => {
             {brandLogoData &&
               brandLogoData.map((single, key) => {
                 return (
-                  <BrandLogoOneSingle
+                  <BrandLogoSingle
                     data={single}
                     key={key}
                     sliderClassName="swiper-slide"

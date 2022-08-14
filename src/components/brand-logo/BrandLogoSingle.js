@@ -1,7 +1,7 @@
 import PropTypes from "prop-types";
 import React from "react";
 
-const BrandLogoOneSingle = ({ data, sliderClassName, spaceBottomClass }) => {
+const BrandLogoSingle = ({ data, sliderClassName, spaceBottomClass }) => {
   return (
     <div
       className={`single-brand-logo ${sliderClassName ? sliderClassName : ""} ${
@@ -13,10 +13,10 @@ const BrandLogoOneSingle = ({ data, sliderClassName, spaceBottomClass }) => {
   );
 };
 
-BrandLogoOneSingle.propTypes = {
+BrandLogoSingle.propTypes = {
   data: PropTypes.object,
   sliderClassName: PropTypes.string,
-  spaceBottomClass: PropTypes.string
+  spaceBottomClass: PropTypes.string,
 };
 
-export default BrandLogoOneSingle;
+export default BrandLogoSingle;
