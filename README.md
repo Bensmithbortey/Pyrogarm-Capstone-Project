@@ -6,7 +6,7 @@
   </a>
 
   <h3 align="center">Pyrogarm</h3>
-   <p>Pyrogarm - An e-commerce platform for authentic luxury and streetwear.</p>
+   <p>An e-commerce platform for authentic luxury products and streetwear.</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
